@@ -21,8 +21,8 @@ You can also create a table initially, no SQL knowledge required
 
 * $db->createTable(String $tableName, Array $data);
 
-* Example: $db->createTable("City", ["name" => "INT"]);
-* Supported values: INT | STRING | BOOLEAN
+* Example: $db->createTable("City", ["id" => "PRINCIPAL" => "name" => "STRING"]);
+* Supported values: PRINCIPAL | INT | STRING | BOOLEAN
 
 And to save the stored data the basic function will be used
 
